@@ -1,0 +1,240 @@
+--------------------------------------------------------------
+Test 1
+
+Numbers to sort: 10000000
+Maximum number of digits: 4
+
+
+RADIXSORT: 0 minutes // 1 seconds // 1993 milliseconds // 1993958100 nanoseconds 
+ 
+MERGESORT: 0 minutes // 4 seconds // 4843 milliseconds // 4843998400 nanoseconds 
+
+SHELLSORT: 0 minutes // 6 seconds // 6459 milliseconds // 6459000300 nanoseconds 
+
+COUNTSORT: 0 minutes // 0 seconds // 207 milliseconds // 207039900 nanoseconds 
+
+QUICKSORT: 0 minutes // 48 seconds // 48504 milliseconds // 48504999900 nanoseconds 
+--------------------------------------------------------------
+Test 2
+
+Numbers to sort: 10000000
+Maximum number of digits: 5
+
+
+RADIXSORT: 0 minutes // 2 seconds // 2429 milliseconds // 2429996800 nanoseconds 
+ 
+MERGESORT: 0 minutes // 4 seconds // 4886 milliseconds // 4886002000 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7613 milliseconds // 7613986400 nanoseconds 
+
+COUNTSORT: 0 minutes // 0 seconds // 207 milliseconds // 207013000 nanoseconds 
+
+QUICKSORT: 0 minutes // 6 seconds // 6745 milliseconds // 6745001800 nanoseconds 
+--------------------------------------------------------------
+Test 3
+
+Numbers to sort: 10000000
+Maximum number of digits: 6
+
+
+RADIXSORT: 0 minutes // 2 seconds // 2906 milliseconds // 2906006300 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5014 milliseconds // 5014991800 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7984 milliseconds // 7984001100 nanoseconds 
+
+COUNTSORT: 0 minutes // 0 seconds // 246 milliseconds // 246960500 nanoseconds 
+
+QUICKSORT: 0 minutes // 2 seconds // 2939 milliseconds // 2939038700 nanoseconds 
+--------------------------------------------------------------
+Test 4
+
+Numbers to sort: 10000000
+Maximum number of digits: 7
+
+
+RADIXSORT: 0 minutes // 3 seconds // 3401 milliseconds // 3401001500 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5074 milliseconds // 5074000000 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8270 milliseconds // 8270960400 nanoseconds 
+
+COUNTSORT: 0 minutes // 0 seconds // 562 milliseconds // 562039200 nanoseconds 
+
+QUICKSORT: 0 minutes // 2 seconds // 2638 milliseconds // 2638003100 nanoseconds 
+--------------------------------------------------------------
+Test 5
+
+Numbers to sort: 10000000
+Maximum number of digits: 8
+
+
+RADIXSORT: 0 minutes // 3 seconds // 3918 milliseconds // 3918996800 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5088 milliseconds // 5088000800 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7796 milliseconds // 7796998200 nanoseconds 
+
+COUNTSORT: 0 minutes // 1 seconds // 1032 milliseconds // 1032004100 nanoseconds 
+
+QUICKSORT: 0 minutes // 2 seconds // 2592 milliseconds // 2592996100 nanoseconds 
+--------------------------------------------------------------
+Test 6
+
+Numbers to sort: 10000000
+Maximum number of digits: 9
+
+
+RADIXSORT: 0 minutes // 4 seconds // 4334 milliseconds // 4334954500 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5044 milliseconds // 5044040100 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8106 milliseconds // 8106000800 nanoseconds 
+
+COUNTSORT: 0 minutes // 6 seconds // 6560 milliseconds // 6560003000 nanoseconds 
+
+QUICKSORT: 0 minutes // 2 seconds // 2591 milliseconds // 2591986600 nanoseconds 
+--------------------------------------------------------------
+Test 7
+
+Numbers to sort: 10000000
+Maximum number of digits: 10
+
+
+RADIXSORT: 0 minutes // 4 seconds // 4972 milliseconds // 4972997700 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5037 milliseconds // 5037003400 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8658 milliseconds // 8658997500 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 8
+
+Numbers to sort: 10000000
+Maximum number of digits: 11
+
+
+RADIXSORT: 0 minutes // 5 seconds // 5434 milliseconds // 5434040800 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5142 milliseconds // 5142959600 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8421 milliseconds // 8421999700 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 9
+
+Numbers to sort: 10000000
+Maximum number of digits: 12
+
+
+RADIXSORT: 0 minutes // 6 seconds // 6300 milliseconds // 6300996800 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5634 milliseconds // 5634002000 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8271 milliseconds // 8271997800 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 10
+
+Numbers to sort: 10000000
+Maximum number of digits: 13
+
+
+RADIXSORT: 0 minutes // 6 seconds // 6374 milliseconds // 6374996500 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5148 milliseconds // 5148995100 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8748 milliseconds // 8748004500 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 11
+
+Numbers to sort: 10000000
+Maximum number of digits: 14
+
+
+RADIXSORT: 0 minutes // 6 seconds // 6736 milliseconds // 6736956200 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5044 milliseconds // 5044039000 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7898 milliseconds // 7898000200 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 12
+
+Numbers to sort: 10000000
+Maximum number of digits: 15
+
+
+RADIXSORT: 0 minutes // 7 seconds // 7211 milliseconds // 7211960800 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5047 milliseconds // 5047040400 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7923 milliseconds // 7923999200 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 13
+
+Numbers to sort: 10000000
+Maximum number of digits: 16
+
+
+RADIXSORT: 0 minutes // 7 seconds // 7804 milliseconds // 7804039800 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5055 milliseconds // 5055961300 nanoseconds 
+
+SHELLSORT: 0 minutes // 8 seconds // 8396 milliseconds // 8396040200 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 14
+
+Numbers to sort: 10000000
+Maximum number of digits: 17
+
+
+RADIXSORT: 0 minutes // 8 seconds // 8203 milliseconds // 8203040600 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5037 milliseconds // 5037001500 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7956 milliseconds // 7956000400 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 
+--------------------------------------------------------------
+Test 15
+
+Numbers to sort: 10000000
+Maximum number of digits: 18
+
+
+RADIXSORT: 0 minutes // 8 seconds // 8887 milliseconds // 8887043600 nanoseconds 
+ 
+MERGESORT: 0 minutes // 5 seconds // 5031 milliseconds // 5031998600 nanoseconds 
+
+SHELLSORT: 0 minutes // 7 seconds // 7853 milliseconds // 7853992100 nanoseconds 
+
+COUNTSORT: Too many digits for this sort 
+
+QUICKSORT: Too many digits for this sort 

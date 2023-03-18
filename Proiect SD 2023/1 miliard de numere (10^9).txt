@@ -1,0 +1,16 @@
+--------------------------------------------------------------
+Test 1
+
+Numbers to sort: 1000000000
+Maximum number of digits: 9
+
+
+RADIXSORT: 24 minutes // 1457 seconds // 1457451 milliseconds // 1457451529100 nanoseconds 
+ 
+MERGESORT: 15 minutes // 926 seconds // 926637 milliseconds // 926637724400 nanoseconds 
+
+SHELLSORT: 34 minutes // 2062 seconds // 2062881 milliseconds // 2062881868400 nanoseconds 
+
+COUNTSORT: 3 minutes // 221 seconds // 221764 milliseconds // 221764070100 nanoseconds 
+
+QUICKSORT: 6 minutes // 389 seconds // 389290 milliseconds // 389290242400 nanoseconds 
