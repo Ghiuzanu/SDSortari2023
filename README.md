@@ -71,29 +71,3 @@ implementa mai puțini
 ○ IntroSort sau TeamSort sunt mai complicati
 
 ○ InsertionSort nu este mai complicat
-
-Observatii:
-
-❏ Sortarile trebuie implementate cat de cat eficient de exemplu dacă Radix Sortul vostru
-
-este mult mai încet ca QSort-ul pentru numere naturale mai mici ca 10^6 atunci ceva nu
-
-este bine la implementarea voastra…
-
-❏ Testele alese ar trebui să evidențieze în ce cazuri anumiți algoritmi sunt mai buni
-
-ca alții
-
-❏ La Q-Sort este de preferat sa alegeti pivotul ca fiind mediana din 3 sau 5 sau mediana
-
-medianelor, sau chiar mai bine sa alegeti pivotul în 2 moduri diferite și să arătați cum
-
-influențează timpul de rulare acest lucru.
-
-❏ La RadixSort este de preferat sa folositi baze puteri a lui 2 și operatii pe biti. De
-
-asemenea daca nu folositi operatii pe biti este bine sa puteți face baza o constanta ușor
-
-de modificat și sa aveti 2 versiuni ale radixSort cu 2 baze diferite și să arătați cum
-
-influențează timpul de rulare modificarea bazei.
