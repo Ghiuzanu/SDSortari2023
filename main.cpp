@@ -5,6 +5,7 @@
 #include <chrono>
 #include <cmath>
 #include <fstream>
+#include <algorithm>
 
 using namespace std;
 
@@ -118,6 +119,22 @@ void quicksort(vector<long long>& v, long long start, long long end) {
     }
 }
 
+void bucketsort(vector<long long>& v, long long nrDigits, long long nrNumbers){
+    vector<vector<long long>> buckets(pow(10, nrDigits - 1));
+    for (long long i = 0; i < nrNumbers; ++i) {
+        buckets[v[i] / 10].push_back(v[i]);
+        if (buckets[v[i] / 10].size() > 1){
+            sort(buckets[v[i] / 10].begin(), buckets[v[i] / 10].end());
+        }
+    }
+    v.clear();
+    for (int i = 0; i < buckets.size(); ++i) {
+        for (int j = 0; j < buckets[i].size(); ++j) {
+            v.push_back(buckets[i][j]);
+        }
+    }
+}
+
 int main() {
     long long t;
     fin>>t;
@@ -139,9 +156,8 @@ int main() {
             }
             v.push_back(x);
         }
-        countSort(v, nrDigits);
         fout << endl << "RADIXSORT: ";
-        vector<long long> w(v), vv(v), ww(v), vw(v);
+        vector<long long> w(v), vv(v), ww(v), vw(v), vvv(v);
         const auto t1 = std::chrono::high_resolution_clock::now();
         long long i;
         for (i = 0; i < w.size() - 1; ++i) {
@@ -239,7 +255,14 @@ int main() {
             fout << (std::chrono::duration_cast<std::chrono::milliseconds>(t10 - t9).count()) << " milliseconds // ";
             fout << (std::chrono::duration_cast<std::chrono::nanoseconds>(t10 - t9).count()) << " nanoseconds \n";
         }
-
+        fout << endl << "BUCKETSORT: ";
+            const auto t11 = std::chrono::high_resolution_clock::now();
+            bucketsort(vvv, nrDigits, nrNumbers);
+            const auto t12 = std::chrono::high_resolution_clock::now();
+            fout << (std::chrono::duration_cast<std::chrono::minutes>(t12 - t11).count()) << " minutes // ";
+            fout << (std::chrono::duration_cast<std::chrono::seconds>(t12 - t11).count()) << " seconds // ";
+            fout << (std::chrono::duration_cast<std::chrono::milliseconds>(t12 - t11).count()) << " milliseconds // ";
+            fout << (std::chrono::duration_cast<std::chrono::nanoseconds>(t12 - t11).count()) << " nanoseconds \n";
     }
     return 0;
 }
